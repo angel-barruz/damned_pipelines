@@ -1,0 +1,12 @@
+field_list1 = ['number',
+               'title',
+               'state',
+               'created_at',
+               'updated_at',
+               'closed_at',
+               'html_url',
+               'base.repo.full_name',
+               'base.ref',
+               'head.repo.full_name',
+               'head.ref',
+               'head.repo.pushed_at']

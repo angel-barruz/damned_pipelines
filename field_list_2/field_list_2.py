@@ -1,0 +1,15 @@
+
+field_list2 = ['student_name',
+               'number',
+               'lab_name',
+               'state',
+               'lab_status',
+               'created_at',
+               'updated_at',
+               'closed_at',
+               'html_url',
+               'base.repo.full_name',
+               'base.ref',
+               'head.repo.full_name',
+               'head.ref',
+               'head.repo.pushed_at']
