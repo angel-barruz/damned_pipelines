@@ -1,3 +1,4 @@
+# No puedo importar las librerias en Visual Studio Code
 import requests
 import pandas as pd
 import re
@@ -111,8 +112,8 @@ else:
         return df_csv
 
     DF_PULLS = get_pulls(BASE_URL, KEY, OWNER, REPO, PULLS, SEARCH, STATE, USERNAME, API_TOKEN, field_list1)
-    DF_STATUS = df_status(DF_PULLS, BASE_URL, KEY, OWNER, REPO, COMMITS, USERNAME, API_TOKEN, field_list2)
-    DF_CSV = create_csv(DF_STATUS, field_sort1, field_list1)
+    DF_STATUS = df_status(DF_PULLS, BASE_URL, KEY, OWNER, REPO, COMMITS, USERNAME, API_TOKEN, field_list_2)
+    DF_CSV = create_csv(DF_STATUS, field_sort_1, field_list1)
     DF_CSV
     
   
